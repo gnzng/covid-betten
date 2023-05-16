@@ -94,7 +94,7 @@ app.layout = html.Div(children=[
         dcc.Graph(id='my-graph')
         ],className='twelve columns'),
     html.Br(),
-    html.A('Code gibt\'s hier', href='https://github.com/gnzng/covid-beds',target="_blank", rel="noopener noreferrer"),
+    html.A('Code gibt\'s hier', href='https://github.com/gnzng/covid-betten',target="_blank", rel="noopener noreferrer"),
     html.Br(),
     html.Label([html.A('Daten hier', href='https://www.divi.de/divi-intensivregister-tagesreport-archiv-csv?layout=table',target="_blank", rel="noopener noreferrer"),' | Stand: {}'.format(stand)]),
     html.Div(id='gemeinden-output',style={'color': 'grey', 'fontSize': 11}),
